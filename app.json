@@ -6,8 +6,8 @@
     "elasticsearch", "elastic", "bonsai"
   ],
   "website": "https://bonsai.io/",
-  "repository": "https://github.com/omc/heroku-kibana",
-  "logo": "https://cdn.rawgit.com/omc/heroku-kibana/master/kibana.svg",
+  "repository": "https://github.com/robsears/heroku-kibana",
+  "logo": "https://cdn.rawgit.com/robsears/heroku-kibana/master/kibana.svg",
   "success_url": "/",
   "env": {
     "ELASTICSEARCH_URL": {
@@ -19,7 +19,7 @@
   "addons": [ "bonsai:staging" ],
   "buildpacks": [
     {
-      "url": "https://github.com/omc/heroku-buildpack-kibana"
+      "url": "https://github.com/robsears/heroku-buildpack-kibana"
     }
   ]
 }
